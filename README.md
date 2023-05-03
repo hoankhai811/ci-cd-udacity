@@ -5,10 +5,10 @@ This project will start with creating a scaffolding to assist in performing Cont
 ## Project Plan
 
 ### Trello board
-[A link to a Trello board for the project](https://trello.com/invite/b/BHNEfGDe/ATTI9259fd203efa23a58fa6d24144e8ef860DCC7FCD/task-tracking)
+[Link to a Trello board for the project](https://trello.com/invite/b/BHNEfGDe/ATTI9259fd203efa23a58fa6d24144e8ef860DCC7FCD/task-tracking)
 
 ### Spreadsheet Project Plan
-[ A link to a spreadsheet that includes the original and final project plan>](https://docs.google.com/spreadsheets/d/135P-Og8Wr5ZT7m99ojmzN-oxu6nqG1gKoMvBaBFW92g/edit?usp=sharing)
+[Link to a spreadsheet that includes the original and final project plan](https://docs.google.com/spreadsheets/d/135P-Og8Wr5ZT7m99ojmzN-oxu6nqG1gKoMvBaBFW92g/edit?usp=sharing)
 
 ## Instructions
 ### Architectural Diagram
@@ -168,6 +168,20 @@ jobs:
 ![image](https://user-images.githubusercontent.com/59783952/235417514-9f3f30a7-861f-4a48-8a46-2f2c5a0571e2.png)
 
 ## Continuous Delivery on Azure
+### Load Test with locust
+* First you will need to install lib locust with or you can put it into file **```requirements.txt```**
+```
+pip3 install locust
+```
+* Then create **```locustfile.py```** you can refer my code or refer this document: [Load Test With Locust](https://pflb.us/blog/load-testing-using-locust/)
+![image](https://user-images.githubusercontent.com/59783952/235604732-60adfdea-2c82-4334-9c88-0be74de1b204.png)
+
+```
+locust
+```
+![image](https://user-images.githubusercontent.com/59783952/235606070-25a76398-4292-4222-b3bc-e1813987da3c.png)
+![image](https://user-images.githubusercontent.com/59783952/235606149-b579a878-a00a-4f1d-a24c-440235628899.png)
+
 ### 1. Authorize Azure App Service
 ```az webapp up -n <your-appservice> -g <your-resources-group (if already exist else don't put this into your cmd)>```
 I'm already deployed the webapp so i just need type this command 
@@ -222,6 +236,15 @@ Port: 443
 ![image](https://user-images.githubusercontent.com/59783952/235420628-1be4f49f-ba91-42cc-b86a-1adc764d30af.png)
 ![image](https://user-images.githubusercontent.com/59783952/235420646-e2441ff3-ad1a-480c-b963-8966b70a5212.png)
 
+### 3. Stream Logs
+
+Here is the output of streamed log files from deployed application.
+
+[stream log docker file](https://flaskmludacity.scm.azurewebsites.net/api/logs/docker)
+![image](https://user-images.githubusercontent.com/59783952/235611710-ecc8a728-7cf8-45d4-aa6e-b6600bd56908.png)
+
+View the log file in App Service - Log Stream
+![image](https://user-images.githubusercontent.com/59783952/235611977-d4400714-c440-4993-a73d-7266fce3830c.png)
 
 ## Enhancements
 
@@ -230,6 +253,6 @@ Port: 443
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+[Link Screencast on YouTube](https://youtu.be/SgzD0Z-vYrs)
 
 

@@ -1,3 +1,4 @@
+[![Python application test with Github Actions](https://github.com/hoankhai811/ci-cd-udacity/actions/workflows/pythonapp.yml/badge.svg?branch=main)](https://github.com/hoankhai811/ci-cd-udacity/actions/workflows/pythonapp.yml)
 # Overview
 
 This project will start with creating a scaffolding to assist in performing Continuous Integration and Continuous Delivery. And then it will use Github Actions along with a Makefile, requirements.txt and application code to perform an initial lint, test, and install cycle. Lastly, we will integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
@@ -5,10 +6,10 @@ This project will start with creating a scaffolding to assist in performing Cont
 ## Project Plan
 
 ### Trello board
-[Link to a Trello board for the project](https://trello.com/invite/b/BHNEfGDe/ATTI9259fd203efa23a58fa6d24144e8ef860DCC7FCD/task-tracking)
+[Link to a Trello board for the project](https://trello.com/b/BHNEfGDe/task-tracking)
 
 ### Spreadsheet Project Plan
-[Link to a spreadsheet that includes the original and final project plan](https://docs.google.com/spreadsheets/d/135P-Og8Wr5ZT7m99ojmzN-oxu6nqG1gKoMvBaBFW92g/edit?usp=sharing)
+[Link to a spreadsheet that includes the original and final project plan](https://docs.google.com/spreadsheets/d/135P-Og8Wr5ZT7m99ojmzN-oxu6nqG1gKoMvBaBFW92g/edit#gid=0)
 
 ## Instructions
 ### Architectural Diagram
